@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class validParentheses {
     public boolean isValid(String s) {
         // Create hashmap to store the pairs...
         HashMap<Character, Character> Hmap = new HashMap<Character, Character>();
