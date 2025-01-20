@@ -16,7 +16,9 @@ public class LinkedListCycle {
             next = null;
         }
       }
-     
+
+    
+    // 因为walker是runner速度的一半，如果有cycle，哪怕是从尾到头，runner也能重新追上
     public class Solution {
         public boolean hasCycle(ListNode head) {
             if (head == null) {
